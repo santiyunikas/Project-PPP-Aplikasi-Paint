@@ -17,7 +17,7 @@ public class Circle implements ShapeCollection {
 
     @Override
     public String shape(String shape) {
-        return "Lingkaran telah dibuat.";
+        return "Lingkaran telah dibuat";
     }
 
     @Override
@@ -27,6 +27,21 @@ public class Circle implements ShapeCollection {
 
     @Override
     public void infoShape() {
+        System.out.println("Shape : Circle");
+    }
+
+    @Override
+    public void getColor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void getStroke() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void getBorder() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

@@ -7,6 +7,7 @@ package LineCollections;
 import aplikasipaint.LineCollection;
 /**
  *
+ * 
  * @author Gerwin Jo
  */
 public class Line2D implements LineCollection {
@@ -18,6 +19,16 @@ public class Line2D implements LineCollection {
 
     @Override
     public void infoLine() {
+        System.out.println("Line : Line 2D");
+    }
+
+    @Override
+    public void getColor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void getStroke() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

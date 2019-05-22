@@ -13,4 +13,8 @@ public interface ShapeCollection {
     String shape(String shape);
     int hitungShape();
     abstract void infoShape();
+    abstract void getColor();
+    abstract void getStroke();
+    abstract void getBorder();
+    
 }

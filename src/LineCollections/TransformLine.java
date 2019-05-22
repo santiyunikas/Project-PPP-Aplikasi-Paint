@@ -20,6 +20,16 @@ public class TransformLine implements LineCollection {
 
     @Override
     public void infoLine() {
+        System.out.println("Line : Transform Line");
+    }
+
+    @Override
+    public void getColor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void getStroke() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

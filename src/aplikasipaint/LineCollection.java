@@ -10,6 +10,12 @@ package aplikasipaint;
  * @author Gerwin Jo
  */
 public interface LineCollection {
+
     String line();
+
     void infoLine();
+
+    abstract void getColor();
+
+    abstract void getStroke();
 }

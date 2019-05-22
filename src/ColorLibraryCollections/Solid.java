@@ -24,7 +24,7 @@ public class Solid implements ColorCollection {
     
     @Override
     public String pilihColor(int index) {
-        if (index >= 0 && index <= staticColor.length-1) {
+        if (index >= 0 && index <= staticColor.length) {
             return staticColor[index];
         }
         else {
@@ -33,7 +33,7 @@ public class Solid implements ColorCollection {
     }
     
     public void infoColor() {
-        for (int i = 1; i < staticColor.length-1; i++) {
+        for (int i = 0; i < staticColor.length; i++) {
             System.out.print(i + ". "+staticColor[i] + "|");
         }
     }
